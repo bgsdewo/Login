@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-gambar">
+        <img
+          src="gambar/main.png"
+          alt="Photo"
+          class="image"
+          style="width: 70%"
+        />
+      </div>
+      <div class="container-form">
+        <div class="title">Virtual Class Universitas Gunadarma</div>
+        <form style="margin-top: 73px; width: 100%; padding: 0px 32px">
+          <div>
+            <div style="font-size: 24px; margin-bottom: 8px; color: #fff">
+              <label for="email">Email</label>
+            </div>
+            <input
+              id="email"
+              type="email"
+              placeholder="Masukkan Email"
+              required
+              style="
+                padding: 16px;
+                border-radius: 8px;
+                width: 100%;
+                font-size: 16px;
+              "
+            />
+          </div>
+          <div style="margin-top: 24px">
+            <div style="font-size: 20px; margin-bottom: 8px; color: #fff">
+              <label for="password">Password</label>
+            </div>
+            <input
+              id="password"
+              type="password"
+              placeholder="Masukkan Password"
+              required
+              style="
+                padding: 16px;
+                border-radius: 8px;
+                width: 100%;
+                font-size: 16px;
+              "
+            />
+          </div>
+          <div
+            style="
+              margin-top: 24px;
+              display: flex;
+              justify-content: space-between;
+            "
+          >
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                column-gap: 8px;
+                cursor: pointer;
+              "
+            >
+              <input
+                type="checkbox"
+                id="vehicle1"
+                name="vehicle1"
+                value="Bike"
+                style="width: 20px; height: 20px"
+              />
+              <div class="Remember">Remember Me</div>
+            </div>
+            <div style="color: #6358dc; font-size: 16px; cursor: pointer">
+              Lupa Password?
+            </div>
+          </div>
+          <div style="margin-top: 40px">
+            <button class="button-edit">Login</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
